@@ -1,5 +1,5 @@
 {% set name = "ukb-atlas" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 {% set version = "1.3.1" %}
 
 package:
@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pip
     - setuptools
   run:
@@ -33,7 +33,7 @@ requirements:
 
 test:
   requires:
-    - python >={{ python_min }}
+    - python {{ python_min }}
     - pytest
     - pytest-cov
     - pip
