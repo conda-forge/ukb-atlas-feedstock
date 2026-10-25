@@ -1,6 +1,6 @@
 {% set name = "ukb-atlas" %}
 {% set python_min = "3.12" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ukb_atlas-{{ version }}.tar.gz
-  sha256: 8bac2161351507a3c423273e12e0abe252231a73d39180b0c6d213120b0ab1a2
+  sha256: 2d9d86d09a2c8b7462b3bbde06ca7f4ea88c60a5ba814a302ed6a3b6cf758582
 
 build:
   number: 0
