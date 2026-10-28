@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ukb_atlas-{{ version }}.tar.gz
-  sha256: 2dcbd6237c440ea56ac97ba69901a90a19616c203509d6ce19311fea47ee3cd8
+  url: https://github.com/ComputationalPhysiology/ukb-atlas/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 722fa0d0e3ca05bd576b475e3a9cb74bea3d3ef76104810f7ab5a4bed6a23a4a
 
 build:
   number: 0
