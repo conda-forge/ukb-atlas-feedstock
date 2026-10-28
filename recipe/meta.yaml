@@ -1,14 +1,14 @@
 {% set name = "ukb-atlas" %}
 {% set python_min = "3.12" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/ukb_atlas-{{ version }}.tar.gz
-  sha256: dcfbd3a6b82354204b88ceb76e255091d1715a123ebc7081d9b0ada118fe5e27
+  url: https://github.com/ComputationalPhysiology/ukb-atlas/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 722fa0d0e3ca05bd576b475e3a9cb74bea3d3ef76104810f7ab5a4bed6a23a4a
 
 build:
   number: 0
